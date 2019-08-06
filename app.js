@@ -8,9 +8,8 @@ app.get("/", function(req, res) {
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
-const port = process.env.port || 3000;
-app.listen(port, () => {
-  console.log("Example app listening on port port!");
+app.listen(process.env.PORT || 4000, function() {
+  console.log("Your node js server is running");
 });
 
 //Run app, then load http://localhost:port in a browser to see the output.
