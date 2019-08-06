@@ -1,0 +1,21 @@
+{
+  "name": "demo-app",
+  "version": "0.0.1",
+  "description": "npm demo app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "npm",
+    "demo"
+  ],
+  "author": "navingenex",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
