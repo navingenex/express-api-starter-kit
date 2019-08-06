@@ -8,7 +8,8 @@ app.get("/api/getData", (req, res) => {
   res.end();
 });
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.send({ hello: "hello me" });
+  // res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.listen(process.env.PORT || 4000, function() {
